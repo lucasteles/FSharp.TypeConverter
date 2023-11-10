@@ -1,4 +1,4 @@
-next-version: 0.1.0
+next-version: 1.0.0
 mode: ContinuousDeployment
 continuous-delivery-fallback-tag: ""
 major-version-bump-message: "^(breaking|major):"
@@ -8,6 +8,5 @@ no-bump-message: "^(none|skip):"
 
 branches:
     master:
-        tag: beta
         is-mainline: true
         source-branches: []
